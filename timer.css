@@ -14,19 +14,19 @@
 }
 
 
-#button-1 {
+#button-start {
     margin: 18px;
     font-size: 18px;
     background-color: rgb(96, 255, 165);
 }
 
-#button-2 {
+#button-stop {
     margin: 18px;
     font-size: 18px;
     background-color: rgb(255, 99, 99);
 }
 
-#button-3 {
+#button-reset {
     margin: 18px;
     font-size: 18px;
     background-color: rgb(96, 120, 255);
