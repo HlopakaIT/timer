@@ -1,7 +1,9 @@
 #content {
-    margin: auto, 0;
+    margin-top: 110px;
     display: block;
     text-align: center;
+    font-size: 60px;
+    font-weight: bold;
 }
 
 
@@ -9,4 +11,23 @@
     text-align: center;
     margin: auto, 0;
     display: block;
+}
+
+
+#button-1 {
+    margin: 18px;
+    font-size: 18px;
+    background-color: rgb(96, 255, 165);
+}
+
+#button-2 {
+    margin: 18px;
+    font-size: 18px;
+    background-color: rgb(255, 99, 99);
+}
+
+#button-3 {
+    margin: 18px;
+    font-size: 18px;
+    background-color: rgb(96, 120, 255);
 }
