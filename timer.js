@@ -4,7 +4,7 @@ const counter = document.querySelector("#counter");
 let intervalId;
 
 
-const buttonStart = document.querySelector("#button-start");
+const buttonStart = document.getElementById("button-start");
 buttonStart.addEventListener("click", startTimer);
 
 function startTimer() {
@@ -16,7 +16,7 @@ function startTimer() {
 }
 
 
-const buttonStop = document.querySelector("#button-stop");
+const buttonStop = document.getElementById("button-stop");
 buttonStop.addEventListener("click", stopTimer);
 
 function stopTimer() {
@@ -26,7 +26,7 @@ function stopTimer() {
 }
 
 
-const buttonReset = document.querySelector("#button-reset");
+const buttonReset = document.getElementById("button-reset");
 buttonReset.addEventListener("click", resetTimer);
 
 function resetTimer() {
